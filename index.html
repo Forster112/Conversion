@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Conversion</title>
+</head>
+<body>
+    <header>
+        <h1>HexConverter</h1>
+    </header>
+    <main>
+        <p>Converts a Hexadecimal and binary to decimal</p>
+        <div class="conde hidden">
+            <input type="text" name="" id="" class="decimal" value="7" readonly>
+        </div>
+        <div class="converter">
+            <form action="" id="hexa">
+                <p>Hexadecimal</p>
+                <div class="wrap">0x
+                    <input type="text" name="" id="hex" required>
+                </div>
+                <br>
+                <input type="submit" value="Convert" class="search forhex">
+            </form>
+            <form action="" id="bina">
+                <p>Binary</p>
+            <input type="number" name="" id="binary" required>
+            <br>
+            <input type="submit" value="Convert" class="search">
+            </form>
+        </div>
+        <div class="overlay hidden"></div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
