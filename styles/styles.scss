@@ -66,6 +66,9 @@ p {
                 border-radius: 0 15px 15px 0;
                 background-color: inherit;
                 padding: 3px;
+                &:focus{
+                    outline: none;
+                }
             }
         }
         .search {
@@ -86,6 +89,9 @@ p {
             height: 30px;
             border-radius: 15px;
             margin-top: 17px;
+            &:focus{
+                outline: none;
+            }
         }
         .search{
                 margin-top: 10px;

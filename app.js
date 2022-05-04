@@ -65,6 +65,8 @@ const bina = function (user) {
     reverseArr(user).forEach((item, index) => {
         if (item < 2 && item > -2) {
             total += item * Math.pow(2, index);
+        } else {
+            total = 'invalid number';
         }
     })
     return total;
