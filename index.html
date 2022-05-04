@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
     <title>Conversion</title>
 </head>
 <body>
@@ -14,22 +14,22 @@
     <main>
         <p>Converts a Hexadecimal and binary to decimal</p>
         <div class="conde hidden">
-            <input type="text" name="" id="" class="decimal" value="7" readonly>
+            <input type="text" name="decimal" class="decimal" value="0" readonly>
         </div>
         <div class="converter">
             <form action="" id="hexa">
                 <p>Hexadecimal</p>
                 <div class="wrap">0x
-                    <input type="text" name="" id="hex" required>
+                    <input type="text" name="forhex" id="hex">
                 </div>
                 <br>
-                <input type="submit" value="Convert" class="search forhex">
+                <input type="submit" value="Convert" class="search" id="forhex">
             </form>
             <form action="" id="bina">
                 <p>Binary</p>
-            <input type="number" name="" id="binary" required>
+            <input type="number" name="forbina" id="binary">
             <br>
-            <input type="submit" value="Convert" class="search">
+            <input type="submit" value="Convert" class="search" id="forbina">
             </form>
         </div>
         <div class="overlay hidden"></div>
