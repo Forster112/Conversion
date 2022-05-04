@@ -47,7 +47,8 @@ const hexa = function (users) {
     return result;
 }
 
-hexSubmit.addEventListener('click', () => {
+hexSubmit.addEventListener('click', (e) => {
+    e.preventDefault();
     rmHidden();
     decimal.value = hexa(userInput.value.toUpperCase());
 });
@@ -69,7 +70,8 @@ const bina = function (user) {
     return total;
 }
 
-binaSubmit.addEventListener('click', () => {
+binaSubmit.addEventListener('click', (e) => {
+    e.preventDefault();
     rmHidden();
     decimal.value = bina(binary.value);
 })
