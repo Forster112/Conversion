@@ -142,6 +142,50 @@ p {
     }
 }
 
+.color-container {
+    display: flex;
+    gap: 7px;
+    width: fit-content;
+    height: 50px;
+    padding: 5px;
+    // background-color: #b85757;
+    // color: #d4c7c7;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    .color-1 {
+        width: 40px;
+        height: 35px;
+        background-color: #7f7f02;
+    }
+
+    .color-2 {
+        width: 40px;
+        height: 35px;
+        background: linear-gradient(to bottom left, #f4f4f4, #075761);
+    }
+
+    .color-3 {
+        width: 40px;
+        height: 35px;
+        background: linear-gradient(to bottom left, #f4f4f4,#185804);
+    }
+
+    .color-4 {
+        width: 40px;
+        height: 35px;
+        background: linear-gradient(to bottom left, #f4f4f4,#061f2e);
+    }
+
+    .color-5 {
+        width: 40px;
+        height: 35px;
+        background-color:  #000000;
+    }
+}
 
 .overlay {
     position: absolute;
