@@ -47,6 +47,7 @@ const hexa = function (users) {
     return result;
 }
 
+
 hexSubmit.addEventListener('click', (e) => {
     e.preventDefault();
     rmHidden();
