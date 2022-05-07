@@ -180,6 +180,10 @@ p {
           transform: translate(-50%, -50%);
 }
 
+.color-container:focus {
+  outline: none;
+}
+
 .color-container .color-1 {
   width: 40px;
   height: 35px;
@@ -240,7 +244,7 @@ p {
     margin-left: 25px;
   }
   .color-container {
-    top: 65%;
+    top: 70%;
   }
 }
 /*# sourceMappingURL=styles.css.map */
