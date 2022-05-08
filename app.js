@@ -77,7 +77,7 @@ const bina = function (user) {
         if (item < 2 && item > -2) {
             total += item * Math.pow(2, index);
         } else {
-            total = 'invalid number';
+            total = `invalid number ${item}`;
         }
     })
     return total;
@@ -92,8 +92,8 @@ binaSubmit.addEventListener('click', (e) => {
 
 //body color changing
 color1.addEventListener('click', () => {
-    body.style.background = '#7f7f02';
-    body.style.backgroundAttachment = 'fixed';
+    body.style.background = '#d7af0f';
+    // body.style.backgroundAttachment = 'fixed';
 })
 
 color2.addEventListener('click', () => {
