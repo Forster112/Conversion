@@ -77,7 +77,7 @@ const bina = function (user) {
         if (item < 2 && item > -2) {
             total += item * Math.pow(2, index);
         } else {
-            total = `invalid number ${item}`;
+            total = `invalid number ${item} `;
         }
     })
     return total;
